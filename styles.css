@@ -11,6 +11,7 @@ body {
 
 .header {
     background-color: #1F2937;
+    display: flex;
 }
 
 .website-introduction h1 {
@@ -27,5 +28,15 @@ body {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    display: flex;
 }
 
