@@ -9,10 +9,6 @@ body {
     flex-direction: column;
 }
 
-.header {
-    background-color: #1F2937;
-    display: flex;
-}
 
 .website-introduction h1 {
     font-size: 48px;
@@ -30,25 +26,18 @@ body {
     color: #F9FAF8;
 }
 
-.header-left {
-    display: flex;
-    flex-direction: column;
+.header {
+    background-color: #1F2937;
 }
 
-.header-right {
-    display: flex;
-    flex-direction: column;
-}
 
-.website-introduction {
-    display: flex;
-    flex-direction: column;
-}
 
 ul {
     list-style: none;
     display: flex;
+    flex-grow: 0;
 }
+
 
 
 
