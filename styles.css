@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
 }
 
 
@@ -13,7 +12,7 @@
     color: #F9FAF8;
 }
 
-.secondary-text {
+.secondary-text, .sign-up-for {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -72,6 +71,7 @@ img {
     border-radius: 0.7rem;
     padding: 10px;
     width: 150px;
+    color: white
 }
 
 .middle {
@@ -127,5 +127,41 @@ img {
 .author {
     margin-left: 500px;
     font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom-call {
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    border-radius: 00.7rem;
+    gap: 100px;
+}
+
+.bottom-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-box button {
+    background-color: #3882F6;
+    color: white;
+    padding: 15px;
+    border-radius: 00.7rem;
+    border-color: white;
+}
+
+.call-to-action {
+    font-size: 24px;
     font-weight: bold;
 }
