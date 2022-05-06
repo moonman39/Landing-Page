@@ -35,8 +35,20 @@ body {
     flex-direction: column;
 }
 
+.header-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.website-introduction {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     list-style: none;
     display: flex;
 }
+
+
 
