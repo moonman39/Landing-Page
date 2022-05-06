@@ -9,3 +9,23 @@ body {
     flex-direction: column;
 }
 
+.header {
+    background-color: #1F2937;
+}
+
+.website-introduction h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
