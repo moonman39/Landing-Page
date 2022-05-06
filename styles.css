@@ -1,13 +1,10 @@
 * {
-    border: 1px solid red;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 .website-introduction h1 {
@@ -39,21 +36,10 @@ ul {
     gap: 16px;
 }
 
+img {
+    max-width: 100%;
+}
+
 .header-top {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 16px;
-    padding-bottom: 100px;
+    
 }
-
-.header-bottom {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-bottom img {
-    width: 500px;
-    height: 200px;
-}
-
-
